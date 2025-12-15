@@ -6,4 +6,5 @@ type Mineral struct {
 	Hardness      string
 	Density       string
 	Crystalsystem string
+	OpticalEffect string
 }
