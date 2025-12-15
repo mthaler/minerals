@@ -44,7 +44,6 @@ func main() {
 					Density:       el.ChildText("td:nth-child(4)"),
 					Crystalsystem: el.ChildText("td:nth-child(5)"),
 				}
-
 				fmt.Printf("%+v\n", m)
 			})
 		})
